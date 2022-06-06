@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e4e3e3;
+  background-color: #fafafa;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3rem auto;
+  color: #1c2022;
+}
+.projects-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  margin: 3rem 2.5rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 35rem;
+  min-height: 42rem;
+  border: 1px solid #dbe5e6;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(51, 51, 51, 0.3);
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__heading {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 1rem 0 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* background-image: linear-gradient(to right, #55c57a, #28b485);
+  -webkit-background-clip: text;
+  color: transparent; */
+  color: #1c2022;
+  text-transform: capitalize;
+}
+
+.card__stacks-levels {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 1rem;
+  text-transform: uppercase;
+}
+
+.stacks-list {
+  display: flex;
+}
+
+.stack {
+  color: #55c57a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  letter-spacing: 0.2px;
+}
+
+.html {
+  color: #6abecd;
+}
+.css {
+  color: #3e54a3;
+}
+.js {
+  color: #cf79b0;
+}
+.level {
+  font-size: 1.4rem;
+  font-weight: 700;
+  /* background-image: linear-gradient(to right, #55c57a, #28b485); */
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  letter-spacing: 0.2px;
+}
+.newbie {
+  color: #6abecd;
+  outline: 1px solid #6abecd;
+}
+.junior {
+  color: #aad742;
+  outline: 1px solid #aad742;
+}
+
+.links-list {
+  display: flex;
+  padding: 0 2rem;
+}
+.link {
+  padding: 0 0.5rem 2rem;
+}
+
+.link img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.link img:hover {
+  fill: #0cb8b8;
+}
